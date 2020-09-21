@@ -262,4 +262,4 @@ This sample application could be better with your help!
   - Integration tests
   - Functional tests
   - Load tests
-- File an [issue](https://github.com/aws-samples/eb-java-scorekeep/issues) to report a bug or request new features.
+- File an [issue](https://github.com/aws-samples/eb-java-scorekeep/issues) to report a bug or request new features
