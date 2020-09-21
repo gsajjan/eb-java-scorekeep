@@ -19,7 +19,7 @@ Other branches extend the application's functionality and show the use of other 
 - [`sql`](https://github.com/aws-samples/eb-java-scorekeep/tree/sql) - Use JDBC to store game histories in an attached PostgreSQL database instance.
 - [`xray`](https://github.com/aws-samples/eb-java-scorekeep/tree/xray) - Use the [AWS X-Ray SDK for Java](http://docs.aws.amazon.com/xray-sdk-for-java/latest/javadoc/) to instrument incoming requests, functions, SDK clients, SQL queries, HTTP clients, startup code, and AWS Lambda functions.
 - [`xray-cognito`](https://github.com/aws-samples/eb-java-scorekeep/tree/xray-cognito) - Use AWS credentials obtained with Amazon Cognito to upload trace data to X-Ray from the browser.
-- [`xray-ecs`](https://github.com/aws-samples/eb-java-scorekeep/tree/xray-ecs) - Instrumented version of the `ecs` branch. Run the X-Ray daemon in a docker container. Configure networking between containers both locally and on ECS.
+- [`xray-ecs`](https://github.com/aws-samples/eb-java-scorekeep/tree/xray-ecs) - Instrumented version of the `ecs` branch. Run the X-Ray daemon in a docker container. Configure  networking between containers both locally and on ECS.
 - [`xray-gettingstarted`](https://github.com/aws-samples/eb-java-scorekeep/tree/xray-gettingstarted) ([tutorial](https://docs.aws.amazon.com/xray/latest/devguide/xray-gettingstarted.html)) - Use the AWS X-Ray SDK for Java to instrument incoming requests and SDK clients (no additional configuration required).
 - [`xray-worker`](https://github.com/aws-samples/eb-java-scorekeep/tree/xray-worker) - Instrumented Python Lambda worker function from the `lambda-worker` branch.
 
@@ -262,4 +262,5 @@ This sample application could be better with your help!
   - Integration tests
   - Functional tests
   - Load tests
-- File an [issue](https://github.com/aws-samples/eb-java-scorekeep/issues) to report a bug or request new features
+- File an [issue](https://github.com/aws-samples/eb-java-scorekeep/issues) to report a bug or request new features.
+
